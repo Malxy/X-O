@@ -1,0 +1,39 @@
+body{
+   display:flex;
+   justify-content:center;
+   align-items:center;
+   flex-direction: column;
+   margin-top:100px;
+
+}
+
+#game-area{
+    width:40%;
+    height:60%;
+    border:1px solid black;
+    display:grid;
+    grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+ 
+}
+.buttons{
+    background:none;
+    font-size:70px;
+}
+.buttons:hover{
+    background:lightgray;
+}
+.start-reset{
+    font-size:1.2em;
+    font-weight:bold;
+    color:white;
+    margin-top:10px;
+    width:200px;
+    padding:10px 20px;
+    border:none;
+}
+#start{
+    background-color:green;
+}
+#reset{
+    background-color:red;
+}
